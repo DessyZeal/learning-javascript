@@ -7,10 +7,11 @@
 </head>
 <body>
     <h2>External javascript demo</h2>
-    <p id="demo">A paragraph.</p>
+    <p id="demo"></p>
 
-    <button type="button" onclick="myfunction()">try this</button>
-
-    <script src="myscript.js"></script>
+    <script>
+        let carName = "Volvo"
+        document.getElementById("demo") .innerHTML = carName;
+    </script>
 </body>
 </html>
