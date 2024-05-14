@@ -1,3 +1,3 @@
-function myfunction() {
-    document.getElementById("demo") .innerHTML = "paragraph change.";
+function addNumbers(num1, num2) {
+    alert(num1 + num2);
 }
